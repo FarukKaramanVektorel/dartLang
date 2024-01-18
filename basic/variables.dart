@@ -26,4 +26,10 @@ void main(List<String> args) {
   var sayi4 = 45;
   // sayi4=45.56; hata verir
   print(sayi4);
+
+  //Null-aware Typing (Null Bilinçli Türleme): Null-aware türleme, bir değişkenin değeri
+  //null olabilirse bunu belirtmenizi sağlar. Bu, o değişkenin
+  //null olabileceğini bilerek işlem yapmanıza ve bu durumu ele almanıza yardımcı olur.
+  int? number = null;
+  String? string = null;
 }
