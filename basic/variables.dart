@@ -31,5 +31,9 @@ void main(List<String> args) {
   //null olabilirse bunu belirtmenizi sağlar. Bu, o değişkenin
   //null olabileceğini bilerek işlem yapmanıza ve bu durumu ele almanıza yardımcı olur.
   int? number = null;
+  number=5;
+  print(number+3);
   String? string = null;
+  string ="abc";
+  print(string);
 }
